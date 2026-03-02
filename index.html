@@ -23,9 +23,6 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/atom-one-dark.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
     <script defer>hljs.highlightAll();</script>
-
-
-
 </head>
 
 <body>
@@ -51,7 +48,7 @@
         </div>
     </nav>
 
-<header id="welcome" class="parallax">
+    <header id="welcome" class="parallax">
         <div class="overlay">
             <img src="images/Baylen Profile.jpg" alt="Baylen Farmer Portrait" class="profile-photo" />
             <h1 class="fade-in">Baylen Farmer</h1>
@@ -68,7 +65,192 @@
         <div class="container">
             <h2>Projects</h2>
             <div class="row g-4">
-                <!-- Eternal Realms -->
+
+                <!-- ═══════════════════════════════════════════════════════
+                     NEW — Custom 6-Axis HOTAS Controller (Spring 2026)
+                     ═══════════════════════════════════════════════════════ -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <h4><i class="fa-solid fa-gamepad"></i> Custom 6-Axis HOTAS Controller</h4>
+                        <p class="small">
+                            Designed and prototyped a modular flight controller using ESP32-S3 microcontrollers,
+                            Hall Effect sensors, and custom C++ firmware. Engineered an ergonomic pistol-grip housing
+                            in Blender/Maya for FDM 3D printing and electromechanical assembly.
+                        </p>
+                        <div class="accordion" id="hotasAcc">
+                            <div class="accordion-item bg-transparent border-0">
+                                <h2 class="accordion-header" id="headingHotasMedia">
+                                    <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseHotasMedia"
+                                        aria-expanded="false" aria-controls="collapseHotasMedia">
+                                        Images &amp; Demos
+                                    </button>
+                                </h2>
+                                <div id="collapseHotasMedia" class="accordion-collapse collapse"
+                                    data-bs-parent="#hotasAcc">
+                                    <div class="accordion-body text-center text-muted fst-italic py-4">
+                                        Media coming soon — check back after the semester.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item bg-transparent border-0">
+                                <h2 class="accordion-header" id="headingHotasCode">
+                                    <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseHotasCode"
+                                        aria-expanded="false" aria-controls="collapseHotasCode">
+                                        Firmware Snippets
+                                    </button>
+                                </h2>
+                                <div id="collapseHotasCode" class="accordion-collapse collapse"
+                                    data-bs-parent="#hotasAcc">
+                                    <div class="accordion-body text-center text-muted fst-italic py-4">
+                                        Code snippets coming soon.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li><strong>Skills:</strong> ESP32/C++, Hall Effect Sensors, PCB Design, 3D Printing, Blender/Maya, Embedded Firmware, Hardware Prototyping</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ═══════════════════════════════════════════════════════
+                     NEW — GIMM Nexus – Spatial AR Operating System (Spring 2026)
+                     ═══════════════════════════════════════════════════════ -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <h4><i class="fa-solid fa-cube"></i> GIMM Nexus – Spatial AR Operating System</h4>
+                        <p class="small">
+                            Developed a persistent AR workspace using Swift, ARKit, and RealityKit, leveraging
+                            ARWorldMap to anchor assets across sessions. Features a "Time Travel" interface for
+                            visualizing historical projects and a CloudKit backend syncing real-time 3D "Air Canvas"
+                            drawings across devices.
+                        </p>
+                        <div class="accordion" id="nexusAcc">
+                            <div class="accordion-item bg-transparent border-0">
+                                <h2 class="accordion-header" id="headingNexusMedia">
+                                    <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseNexusMedia"
+                                        aria-expanded="false" aria-controls="collapseNexusMedia">
+                                        Images &amp; Demos
+                                    </button>
+                                </h2>
+                                <div id="collapseNexusMedia" class="accordion-collapse collapse"
+                                    data-bs-parent="#nexusAcc">
+                                    <div class="accordion-body text-center text-muted fst-italic py-4">
+                                        Media coming soon — check back after the semester.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item bg-transparent border-0">
+                                <h2 class="accordion-header" id="headingNexusCode">
+                                    <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseNexusCode"
+                                        aria-expanded="false" aria-controls="collapseNexusCode">
+                                        Code Snippets
+                                    </button>
+                                </h2>
+                                <div id="collapseNexusCode" class="accordion-collapse collapse"
+                                    data-bs-parent="#nexusAcc">
+                                    <div class="accordion-body text-center text-muted fst-italic py-4">
+                                        Code snippets coming soon.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li><strong>Skills:</strong> Swift, ARKit, RealityKit, ARWorldMap, CloudKit, Spatial Computing, iOS Development</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ═══════════════════════════════════════════════════════
+                     NEW — Boise Train Depot Digital Twin (Fall 2025 – Spring 2026)
+                     ═══════════════════════════════════════════════════════ -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <h4><i class="fa-solid fa-train"></i> Boise Train Depot Digital Twin</h4>
+                        <p class="small">
+                            Created a high-fidelity historical recreation of the Boise Train Depot &amp; Platt Gardens
+                            ecosystem. Collaborated with a development team to ensure architectural and historical
+                            accuracy across the full 3D environment.
+                        </p>
+                        <div class="accordion" id="depotAcc">
+                            <div class="accordion-item bg-transparent border-0">
+                                <h2 class="accordion-header" id="headingDepotMedia">
+                                    <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseDepotMedia"
+                                        aria-expanded="false" aria-controls="collapseDepotMedia">
+                                        Images &amp; Demos
+                                    </button>
+                                </h2>
+                                <div id="collapseDepotMedia" class="accordion-collapse collapse"
+                                    data-bs-parent="#depotAcc">
+                                    <div class="accordion-body text-center text-muted fst-italic py-4">
+                                        Media coming soon — check back after the semester.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li><strong>Skills:</strong> 3D Modeling, Environmental Design, Historical Reconstruction, Team Collaboration, Blender/Maya</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ═══════════════════════════════════════════════════════
+                     NEW — AWS IoT Telemetry Device (Fall 2025)
+                     ═══════════════════════════════════════════════════════ -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <h4><i class="fa-solid fa-wifi"></i> AWS IoT Telemetry Device</h4>
+                        <p class="small">
+                            Developed an AWS-hosted database server to reliably ingest, process, and manage real-time
+                            telemetry data transmitted from an Arduino microcontroller. Integrated voice control via
+                            Amazon Echo, enabling users to query, retrieve, and edit data in real time.
+                        </p>
+                        <div class="accordion" id="iotAcc">
+                            <div class="accordion-item bg-transparent border-0">
+                                <h2 class="accordion-header" id="headingIotMedia">
+                                    <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseIotMedia"
+                                        aria-expanded="false" aria-controls="collapseIotMedia">
+                                        Images &amp; Demos
+                                    </button>
+                                </h2>
+                                <div id="collapseIotMedia" class="accordion-collapse collapse"
+                                    data-bs-parent="#iotAcc">
+                                    <div class="accordion-body text-center text-muted fst-italic py-4">
+                                        Media coming soon — check back after the semester.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item bg-transparent border-0">
+                                <h2 class="accordion-header" id="headingIotCode">
+                                    <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseIotCode"
+                                        aria-expanded="false" aria-controls="collapseIotCode">
+                                        Code Snippets
+                                    </button>
+                                </h2>
+                                <div id="collapseIotCode" class="accordion-collapse collapse"
+                                    data-bs-parent="#iotAcc">
+                                    <div class="accordion-body text-center text-muted fst-italic py-4">
+                                        Code snippets coming soon.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li><strong>Skills:</strong> AWS IoT, Arduino, Amazon Echo (Alexa SDK), Cloud Architecture, Real-time Telemetry, C++</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ═══════════════════════════════════════════════════════
+                     EXISTING — Procedural RTS Engine & Simulation
+                     ═══════════════════════════════════════════════════════ -->
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="project-card">
                         <h4><i class="fa-solid fa-dragon"></i> Procedural RTS Engine & Simulation</h4>
@@ -96,74 +278,57 @@
                                                     <img src="images/Gaea.png" class="d-block w-100 rounded" alt="Gaea">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Blender.jpg" class="d-block w-100 rounded"
-                                                        alt="Blender">
+                                                    <img src="images/Blender.jpg" class="d-block w-100 rounded" alt="Blender">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Unity.png" class="d-block w-100 rounded"
-                                                        alt="Unity">
+                                                    <img src="images/Unity.png" class="d-block w-100 rounded" alt="Unity">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Minion.png" class="d-block w-100 rounded"
-                                                        alt="Minion">
+                                                    <img src="images/Minion.png" class="d-block w-100 rounded" alt="Minion">
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img src="images/Boss.png" class="d-block w-100 rounded" alt="Boss">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Knight.png" class="d-block w-100 rounded"
-                                                        alt="Knight">
+                                                    <img src="images/Knight.png" class="d-block w-100 rounded" alt="Knight">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Worker.png" class="d-block w-100 rounded"
-                                                        alt="Worker">
+                                                    <img src="images/Worker.png" class="d-block w-100 rounded" alt="Worker">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Castle.png" class="d-block w-100 rounded"
-                                                        alt="Castle">
+                                                    <img src="images/Castle.png" class="d-block w-100 rounded" alt="Castle">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/StorageDepot.png" class="d-block w-100 rounded"
-                                                        alt="Storage Depot">
+                                                    <img src="images/StorageDepot.png" class="d-block w-100 rounded" alt="Storage Depot">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/House.png" class="d-block w-100 rounded"
-                                                        alt="House">
+                                                    <img src="images/House.png" class="d-block w-100 rounded" alt="House">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Crop.png" class="d-block w-100 rounded"
-                                                        alt="Crop Field">
+                                                    <img src="images/Crop.png" class="d-block w-100 rounded" alt="Crop Field">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Stone.png" class="d-block w-100 rounded"
-                                                        alt="Stone Resource">
+                                                    <img src="images/Stone.png" class="d-block w-100 rounded" alt="Stone Resource">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Mana.png" class="d-block w-100 rounded"
-                                                        alt="Mana Resource">
+                                                    <img src="images/Mana.png" class="d-block w-100 rounded" alt="Mana Resource">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Selection.png" class="d-block w-100 rounded"
-                                                        alt="Selection UI">
+                                                    <img src="images/Selection.png" class="d-block w-100 rounded" alt="Selection UI">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Smoke.png" class="d-block w-100 rounded"
-                                                        alt="Smoke VFX">
+                                                    <img src="images/Smoke.png" class="d-block w-100 rounded" alt="Smoke VFX">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Forest.png" class="d-block w-100 rounded"
-                                                        alt="Forest Terrain">
+                                                    <img src="images/Forest.png" class="d-block w-100 rounded" alt="Forest Terrain">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Water.png" class="d-block w-100 rounded"
-                                                        alt="Water Terrain">
+                                                    <img src="images/Water.png" class="d-block w-100 rounded" alt="Water Terrain">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Mountains.png" class="d-block w-100 rounded"
-                                                        alt="Mountain Terrain">
+                                                    <img src="images/Mountains.png" class="d-block w-100 rounded" alt="Mountain Terrain">
                                                 </div>
                                             </div>
-
                                             <button class="carousel-control-prev" type="button"
                                                 data-bs-target="#rtsCarousel" data-bs-slide="prev">
                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -240,7 +405,6 @@
         private Vector3[] depotPositions;
     </code></pre>
                                                 </div>
-
                                                 <div class="carousel-item">
                                                     <pre><code class="language-csharp">
         void Awake()
@@ -249,7 +413,6 @@
             if (mainBase != null)
             {
                 mainBasePos = mainBase.transform.position;
-
                 var depots = GameObject.FindGameObjectsWithTag("StorageDepot");
                 depotPositions = new Vector3[depots.Length];
                 for (int i = 0; i &lt; depots.Length; i++)
@@ -257,280 +420,10 @@
             }
             else
             {
-                Debug.LogError("ResourceSpawner2: MainBase not found in the scene. Please tag your main base with 'MainBase'.");
+                Debug.LogError("ResourceSpawner2: MainBase not found.");
             }
         }
-                                            </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        void Start()
-        {
-            if (terrain == null)
-            {
-                terrain = Terrain.activeTerrain;
-                if (terrain == null)
-                {
-                    Debug.LogError("No active terrain found. Please assign a Terrain in the Inspector.");
-                    return;
-                }
-            }
-
-            InitializeResourceParents();
-            SpawnResources(stonePrefab, ResourceType2.Stone);
-            SpawnResources(manaPrefab, ResourceType2.Mana);
-            SpawnResources(foodPrefab, ResourceType2.Food);
-            SpawnTrees();
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        void SpawnResources(GameObject prefab, ResourceType2 type)
-        {
-            if (prefab == null)
-            {
-                Debug.LogError($"ResourceSpawner2: {type} prefab is not assigned.");
-                return;
-            }
-
-            List&lt;Vector3&gt; spawnPositions = GenerateResourcePositions(numberOfEachResource, type);
-
-            foreach (Vector3 pos in spawnPositions)
-            {
-                GameObject deposit = Instantiate(prefab, pos, Quaternion.identity, GetParentForResource(type).transform);
-                deposit.transform.position = pos;
-
-                ResourceDeposit2 depositScript = deposit.GetComponent&lt;ResourceDeposit2&gt;();
-                if (depositScript != null)
-                {
-                    depositScript.resourceType = type;
-                }
-                else
-                {
-                    Debug.LogError($"ResourceSpawner2: {prefab.name} does not have a ResourceDeposit2 component.");
-                }
-
-                resourcePositions.Add(pos);
-            }
-        }                                            </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        GameObject GetParentForResource(ResourceType2 type)
-        {
-            switch (type)
-            {
-                case ResourceType2.Stone:
-                    return stoneParent;
-                case ResourceType2.Mana:
-                    return manaParent;
-                case ResourceType2.Food:
-                    return foodParent;
-                default:
-                    Debug.LogWarning($"ResourceSpawner2: Unknown resource type '{type}'. Using root as parent.");
-                    return this.gameObject;
-            }
-        }                                            </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        List&lt;Vector3&gt; GenerateResourcePositions(int count, ResourceType2 type)
-            {
-                List&lt;Vector3&gt; positions = new List&lt;Vector3&gt;();
-                int safetyLimit = count * 10;
-                int attempts = 0;
-        
-                while (positions.Count &lt; count &amp;&amp; attempts &lt; safetyLimit)
-                {
-                    attempts++;
-        
-                    Vector3 candidate = GetRandomTerrainPosition();
-                    float y = terrain.SampleHeight(candidate) + terrain.transform.position.y;
-        
-                    if (y &lt; resourceMinY || y &gt; resourceMaxY)
-                        continue;
-        
-                    candidate.y = y;
-        
-                    if (candidate.x &lt; terrain.transform.position.x + padding ||
-                        candidate.x &gt; terrain.transform.position.x + terrain.terrainData.size.x - padding ||
-                        candidate.z &lt; terrain.transform.position.z + padding ||
-                        candidate.z &gt; terrain.transform.position.z + terrain.terrainData.size.z - padding)
-                        continue;
-        
-                    if (Vector3.Distance(candidate, mainBasePos) &lt; noTreeNearMainBase)
-                        continue;
-        
-                    bool tooCloseDepot = false;
-                    foreach (var dp in depotPositions)
-                        if (Vector3.Distance(candidate, dp) &lt; noSpawnNearDepot)
-                        {
-                            tooCloseDepot = true;
-                            break;
-                        }
-                    if (tooCloseDepot)
-                        continue;
-        
-                    bool tooClose = false;
-                    foreach (Vector3 existingPos in resourcePositions)
-                    {
-                        if (Vector3.Distance(candidate, existingPos) &lt; minResourceDistance)
-                        {
-                            tooClose = true;
-                            break;
-                        }
-                    }
-                    if (tooClose)
-                        continue;
-        
-                    positions.Add(candidate);
-                }
-        
-                if (positions.Count &lt; count)
-                {
-                    Debug.LogWarning($"ResourceSpawner2: Only spawned {positions.Count} out of {count} requested {type} resources due to constraints.");
-                }
-        
-                return positions;
-            }                                            </code></pre>
-                                                </div>
-
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        void SpawnTrees()
-        {
-            if (treePrefab == null)
-            {
-                Debug.LogError("ResourceSpawner2: treePrefab is not assigned.");
-                return;
-            }
-
-            treeParent = new GameObject("TREES");
-            treeParent.transform.parent = this.transform; // Optional: set as child of ResourceSpawner2
-
-            int treesSpawned = 0;
-            int safetyLimit = 10000;
-            int attempts = 0;
-
-            while (treesSpawned &lt; totalTrees &amp;&amp; attempts &lt; safetyLimit)
-            {
-                attempts++;
-
-                Vector3 clusterCenter;
-                if (!FindValidPositionForTrees(out clusterCenter))
-                {
-                    if (attempts &gt;= safetyLimit)
-                    {
-                        Debug.LogWarning("ResourceSpawner2: Unable to find valid positions for more trees.");
-                        break;
-                    }
-                    continue; // Try again
-                }
-
-                int clusterCount = Random.Range(minTreesPerCluster, maxTreesPerCluster + 1);
-                if (treesSpawned + clusterCount &gt; totalTrees)
-                {
-                    clusterCount = totalTrees - treesSpawned;
-                }
-
-                for (int i = 0; i &lt; clusterCount; i++)
-                {
-                    Vector3 treePos;
-                    if (FindValidTreePositionAround(clusterCenter, out treePos))
-                    {
-                        GameObject tree = Instantiate(treePrefab, treePos, Quaternion.identity, treeParent.transform);
-                        ResourceDeposit2 rd = tree.GetComponent&lt;ResourceDeposit2&gt;();
-                        if (rd != null)
-                        {
-                            rd.resourceType = ResourceType2.Wood;
-                        }
-                        else
-                        {
-                            Debug.LogError("Tree prefab has no ResourceDeposit2 component!");
-                        }
-                        treesSpawned++;
-                        if (treesSpawned &gt;= totalTrees) break;
-                    }
-                }
-            }
-
-            Debug.Log($"ResourceSpawner2: Spawned {treesSpawned} trees in clusters.");
-        }                                            </code></pre>
-                                                </div>
-
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        bool FindValidTreePositionAround(Vector3 clusterCenter, out Vector3 treePos)
-        {
-            float clusterRadius = 30f;
-
-            int maxAttempts = 1000;
-            for (int i = 0; i &lt; maxAttempts; i++)
-            {
-                Vector2 offset = Random.insideUnitCircle * clusterRadius;
-                Vector3 candidate = new Vector3(clusterCenter.x + offset.x, 0, clusterCenter.z + offset.y);
-                float y = terrain.SampleHeight(candidate) + terrain.transform.position.y;
-
-                if (y &lt; treeMinY || y &gt; treeMaxY)
-                    continue;
-
-                candidate.y = y;
-
-                if (Vector3.Distance(candidate, mainBasePos) &lt; noTreeNearMainBase)
-                    continue;
-
-                bool nearDepot = false;
-                foreach (var dp in depotPositions)
-                    if (Vector3.Distance(candidate, dp) &lt; noSpawnNearDepot)
-                    {
-                        nearDepot = true;
-                        break;
-                    }
-                if (nearDepot)
-                    continue;
-
-                if (!IsFarFromResources(candidate, noTreeNearResource))
-                    continue;
-
-                treePos = candidate;
-                return true;
-            }
-
-            treePos = Vector3.zero;
-            return false;
-        }                                            </code></pre>
-                                                </div>
-
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        Vector3 GetRandomTerrainPosition()
-        {
-            float terrainWidth = terrain.terrainData.size.x;
-            float terrainLength = terrain.terrainData.size.z;
-
-            float x = Random.Range(padding, terrainWidth - padding);
-            float z = Random.Range(padding, terrainLength - padding);
-            float y = terrain.SampleHeight(new Vector3(x, 0, z)) + terrain.transform.position.y;
-            return new Vector3(terrain.transform.position.x + x, y, terrain.transform.position.z + z);
-        }
-                      </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        bool IsFarFromResources(Vector3 position, float minDistance)
-        {
-            foreach (Vector3 existingPos in resourcePositions)
-            {
-                if (Vector3.Distance(position, existingPos) &lt; minDistance)
-                {
-                    return false;
-                }
-            }
-            return true;
-        }
-    }    
-                                        </code></pre>
+                                                    </code></pre>
                                                 </div>
                                             </div>
                                             <button class="carousel-control-prev" type="button"
@@ -547,6 +440,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <!-- Worker2 Snippets -->
                             <div class="accordion-item bg-transparent border-0">
                                 <h2 class="accordion-header" id="headingWorker">
@@ -566,725 +460,39 @@
                                                     <pre><code class="language-csharp">
     //Worker2.cs
     using UnityEngine;
-    using UnityEngine.UI;
     using UnityEngine.AI;
     using System.Collections.Generic;
     using System.Linq;
 
-    public enum WorkerState
-    {
-        Idle,
-        Collecting,
-        Depositing,
-        Building,
-        Moving
-    }
+    public enum WorkerState { Idle, Collecting, Depositing, Building, Moving }
 
     public class Worker2 : MonoBehaviour, IDamageable
     {
-        [Header("Worker Configuration")]
         public int carryCapacity = 50;
         private int currentCarry = 0;
         private ResourceType2 carriedResource;
         private NavMeshAgent agent;
         private Animator animator;
-
-        public GameObject storageDepotPrefab;
-        private Vector3 buildTarget;
-
-        private StorageDepot2 storageDepot;
-
         private WorkerState currentState = WorkerState.Idle;
-
-        public WorkerState CurrentState
-        {
-            get { return currentState; }
-            private set { currentState = value; UpdateAnimation(); }
-
-
-        }
-
-        [Header("Collection Configuration")]
-        public float collectionRadius = 5f;
-
-        [Header("Movement Configuration")]
-        public float reachedDestinationThreshold = 5f;
-
-        private Vector3 depositPoint;
-
-        private bool isAssignedToCollect = false;
-
-        private List&lt;GameObject&gt; availableResourceDeposits = new List&lt;GameObject&gt;();
-
-        private GameObject targetResourceDeposit = null;
-
-        [Header("Health Settings")]
-        public float maxHealth = 100f;
-        private float currentHealth;
-
-        [Header("Health Bar UI")]
-        public Slider healthBarSlider;
-
-        [Header("Health Bar Positioning")]
-        public Vector3 healthBarOffset = new Vector3(0, 2.5f, 0);
-
-        [Header("Transition Settings")]
-        public float smoothSpeed = 5f;
-
-        private Transform cameraTransform;
-
-        [Header("Selection VFX")]
-        [Tooltip("Drag your circle‐VFX prefab here.")]
-        public GameObject selectionVFXPrefab;
-        private GameObject selectionVFXInstance;
-
-        [Header("Deposit Configuration")]
-        [SerializeField] private float depositRange = 10f;
-        private bool waitingForFreeDepot = false;
-        </code></pre>
-                                                </div>
-
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        void Awake()
-        {
-            currentHealth = maxHealth;
-            cameraTransform = Camera.main.transform;
-
-            if (healthBarSlider == null)
-            {
-                Debug.LogError("HealthBarSlider is not assigned in the Worker2 script on " + gameObject.name);
-            }
-
-            if (healthBarSlider != null)
-            {
-                Transform healthBarCanvas = transform.Find("HealthBarCanvas");
-                if (healthBarCanvas != null)
-                {
-                    healthBarCanvas.localPosition = healthBarOffset;
-                }
-                else
-                {
-                    Debug.LogWarning("HealthBarCanvas not found in " + gameObject.name);
-                }
-            }
-
-            animator = GetComponentInChildren&lt;Animator&gt;();
-            if (animator == null)
-            {
-                Debug.LogError("No Animator component found in children of " + gameObject.name);
-            }
-
-            if (selectionVFXPrefab != null)
-            {
-                selectionVFXInstance = Instantiate(
-                    selectionVFXPrefab,
-                    transform.position + Vector3.down * 1f,
-                    Quaternion.identity,
-                    transform
-                );
-                selectionVFXInstance.SetActive(false);
-            }
-            else
-            {
-                Debug.LogError("Selection VFX prefab is not assigned in the Worker2 script on " + gameObject.name);
-            }
-
-        }
-        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        void Start()
-        {
-            agent = GetComponent&lt;NavMeshAgent&gt;();
-            agent.stoppingDistance = depositRange;
-            if (agent == null)
-            {
-                Debug.LogError($"Worker2 [{gameObject.name}]: NavMeshAgent component is missing.");
-            }
-
-            StorageDepot2[] depots = FindObjectsOfType&lt;StorageDepot2&gt;();
-            if (depots.Length &gt; 0)
-            {
-                storageDepot = depots[0];
-                float minDist = Vector3.Distance(transform.position, storageDepot.transform.position);
-                foreach (StorageDepot2 depot in depots)
-                {
-                    float dist = Vector3.Distance(transform.position, depot.transform.position);
-                    if (dist &lt; minDist)
-                    {
-                        storageDepot = depot;
-                        minDist = dist;
-                    }
-                }
-                depositPoint = storageDepot.transform.position;
-                Debug.Log($"Worker2 [{gameObject.name}]: Found StorageDepot2 at {depositPoint}.");
-            }
-            else
-            {
-                Debug.LogError($"Worker2 [{gameObject.name}]: No StorageDepot2 found in the scene.");
-            }
-
-            RefreshAvailableResourceDeposits();
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        void Update()
-        {
-            if (healthBarSlider != null)
-            {
-                healthBarSlider.value = Mathf.Lerp(healthBarSlider.value, currentHealth / maxHealth, Time.deltaTime * smoothSpeed);
-            }
-
-            if (healthBarSlider != null &amp;&amp; cameraTransform != null)
-            {
-                healthBarSlider.transform.parent.LookAt(cameraTransform);
-            }
-
-            HandleState();
-            UpdateAnimation();
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        public void ShowSelectionCircle()
-        {
-            if (selectionVFXInstance != null)
-                selectionVFXInstance.SetActive(true);
-            GetComponent&lt;WorkerAudioController&gt;()?.PlayHi();
-
-        }
-        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        public void HideSelectionCircle()
-        {
-            if (selectionVFXInstance != null)
-                selectionVFXInstance.SetActive(false);
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        private void HandleState()
-        {
-            switch (currentState)
-            {
-                case WorkerState.Idle:
-                    UpdateAnimation();
-                    if (targetResourceDeposit == null)
-                    {
-                        FindNearestResourceDeposit();
-                    }
-                    break;
-
-                case WorkerState.Collecting:
-                    UpdateAnimation();
-                    if (targetResourceDeposit != null)
-                    {
-                        CollectResource();
-                    }
-                    else
-                    {
-                        Debug.Log($"Worker2 [{gameObject.name}]: No target resource deposit found. Switching to Idle.");
-                        CurrentState = WorkerState.Idle;
-                        UpdateAnimation();
-
-                    }
-                    break;
-
-                case WorkerState.Depositing:
-                    UpdateAnimation();
-                    float dist = Vector3.Distance(transform.position, depositPoint);
-
-                    if (dist &lt;= depositRange)
-                    {
-                        if (waitingForFreeDepot)
-                        {
-                            if (CanStorageDepotAccept(storageDepot, carriedResource, currentCarry))
-                            {
-                                waitingForFreeDepot = false;
-                                DepositResources();
-                            }
-                        }
-                        else
-                        {
-                            DepositResources();
-                        }
-                    }
-                    break;
-
-
-                case WorkerState.Building:
-                    UpdateAnimation();
-                    if (!agent.pathPending &amp;&amp; agent.remainingDistance &lt;= 10f)
-                    {
-                        var audioController = GetComponent&lt;WorkerAudioController&gt;();
-                        audioController?.PlayHammer();
-
-                        Instantiate(storageDepotPrefab, buildTarget + Vector3.up * 2.5f, Quaternion.identity);
-                        Debug.Log($"Worker2 [{gameObject.name}]: Built new StorageDepot at {buildTarget}.");
-                        CurrentState = WorkerState.Idle;
-                        UpdateAnimation();
-
-                    }
-                    break;
-
-                case WorkerState.Moving:
-                    UpdateAnimation();
-                    if (!agent.pathPending &amp;&amp; agent.remainingDistance &lt;= reachedDestinationThreshold)
-                    {
-                        Debug.Log($"Worker2 [{gameObject.name}]: Reached destination.");
-                        if (isAssignedToCollect &amp;&amp; targetResourceDeposit != null)
-                        {
-                            CurrentState = WorkerState.Collecting;
-                            UpdateAnimation();
-
-                            Debug.Log($"Worker2 [{gameObject.name}]: Starting to collect resources.");
-                        }
-                        else
-                        {
-                            CurrentState = WorkerState.Idle;
-                            UpdateAnimation();
-
-                            Debug.Log($"Worker2 [{gameObject.name}]: Now Idle after moving.");
-                        }
-                    }
-                    break;
-            }
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        private void RefreshAvailableResourceDeposits()
-        {
-            availableResourceDeposits.Clear();
-            GameObject[] resourceObjects = GameObject.FindGameObjectsWithTag("ResourceDeposit");
-            foreach (GameObject obj in resourceObjects)
-            {
-                ResourceDeposit2 resourceData = obj.GetComponent&lt;ResourceDeposit2&gt;();
-                if (resourceData != null &amp;&amp; resourceData.totalResource &gt; 0)
-                {
-                    availableResourceDeposits.Add(obj);
-                }
-            }
-
-            Debug.Log($"Worker2 [{gameObject.name}]: Found {availableResourceDeposits.Count} available ResourceDeposits.");
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        private void FindNearestResourceDeposit()
-        {
-            RefreshAvailableResourceDeposits();
-
-            GameObject nearest = null;
-            float minDist = Mathf.Infinity;
-            Vector3 currentPos = transform.position;
-
-            foreach (GameObject resource in availableResourceDeposits)
-            {
-                ResourceDeposit2 resourceData = resource.GetComponent&lt;ResourceDeposit2&gt;();
-                if (resourceData == null)
-                    continue;
-
-                float dist = Vector3.Distance(currentPos, resource.transform.position);
-                if (dist &lt; minDist)
-                {
-                    minDist = dist;
-                    nearest = resource;
-                }
-            }
-
-            if (nearest != null)
-            {
-                AssignCollect(nearest.GetComponent&lt;ResourceDeposit2&gt;());
-            }
-            else
-            {
-                Debug.Log($"Worker2 [{gameObject.name}]: No available resource deposits found.");
-                CurrentState = WorkerState.Idle;
-                UpdateAnimation();
-
-            }
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        public void AssignCollect(ResourceDeposit2 deposit)
-        {
-            if (deposit == null)
-            {
-                Debug.LogError($"Worker2 [{gameObject.name}]: AssignCollect received a null deposit.");
-                return;
-            }
-
-            if (currentCarry &gt; 0 &amp;&amp; carriedResource != deposit.resourceType)
-            {
-                Debug.Log($"Worker2 [{gameObject.name}]: Carrying {carriedResource}, needs to deposit before collecting {deposit.resourceType}.");
-                AssignDeposit();
-                targetResourceDeposit = deposit.gameObject; // Queue the new resource deposit after depositing
-                isAssignedToCollect = true;
-                return;
-            }
-
-            if (currentCarry &gt;= carryCapacity)
-            {
-                Debug.Log($"Worker2 [{gameObject.name}]: Carry capacity reached, need to deposit before collecting more.");
-                AssignDeposit();
-                targetResourceDeposit = deposit.gameObject; // Queue the new resource deposit after depositing
-                isAssignedToCollect = true;
-                return;
-            }
-
-            targetResourceDeposit = deposit.gameObject;
-            carriedResource = deposit.resourceType;
-
-            agent.SetDestination(targetResourceDeposit.transform.position);
-            currentState = WorkerState.Moving;
-            UpdateAnimation();
-
-            isAssignedToCollect = true;
-            Debug.Log($"Worker2 [{gameObject.name}]: Assigned to collect {carriedResource} from {targetResourceDeposit.name}.");
-        }
-        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        public void AssignMove(Vector3 destination)
-        {
-            if (agent == null)
-            {
-                Debug.LogError($"Worker2 [{gameObject.name}]: NavMeshAgent is missing.");
-                return;
-            }
-
-            if (currentState == WorkerState.Collecting || currentState == WorkerState.Depositing)
-            {
-                Debug.Log($"Worker2 [{gameObject.name}]: Interrupting current task to move to {destination}.");
-            }
-
-            isAssignedToCollect = false;
-            targetResourceDeposit = null;
-
-            agent.SetDestination(destination);
-            currentState = WorkerState.Moving;
-            UpdateAnimation();
-
-            Debug.Log($"Worker2 [{gameObject.name}]: Assigned to move to {destination}.");
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        public void AssignBuild(Vector3 point)
-        {
-            buildTarget = point;
-            agent.SetDestination(buildTarget);
-            CurrentState = WorkerState.Building;
-            UpdateAnimation();
-
-            Debug.Log($"{gameObject.name}: Assigned to build depot at {buildTarget}.");
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        private void AssignDeposit()
-        {
-            StorageDepot2[] depots = FindObjectsOfType<StorageDepot2>();
-            if (depots.Length == 0)
-            {
-                Debug.LogError($"Worker2 [{name}]: No StorageDepot2 in scene to deposit.");
-                CurrentState = WorkerState.Idle;
-                return;
-            }
-
-            var sorted = depots.OrderBy(d =&gt; Vector3.Distance(transform.position, d.transform.position)).ToArray();
-
-            StorageDepot2 chosen = sorted.FirstOrDefault(d =&gt;
-                CanStorageDepotAccept(d, carriedResource, currentCarry)
-            );
-
-            if (chosen != null)
-            {
-                waitingForFreeDepot = false;
-            }
-            else
-            {
-                chosen = sorted[0];
-                waitingForFreeDepot = true;
-                Debug.LogWarning($"Worker2 [{name}]: All depots full. Waiting at closest ({chosen.name}).");
-            }
-
-            storageDepot = chosen;
-            depositPoint = storageDepot.transform.position;
-            agent.SetDestination(depositPoint);
-            CurrentState = WorkerState.Depositing;
-            Debug.Log($"Worker2 [{name}]: Assigned to deposit at {storageDepot.name}. Waiting? {waitingForFreeDepot}");
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        private void DepositResources()
-        {
-            if (storageDepot == null)
-            {
-                Debug.LogError($"Worker2 [{gameObject.name}]: Cannot deposit resources because StorageDepot2 is missing.");
-                return;
-            }
-
-            if (currentCarry &gt; 0)
-            {
-                if (CanStorageDepotAccept(storageDepot, carriedResource, currentCarry))
-                {
-                    storageDepot.Deposit(carriedResource, currentCarry);
-                    Debug.Log($"Worker2 [{gameObject.name}]: Deposited {currentCarry} {carriedResource} at StorageDepot2.");
-                    currentCarry = 0;
-                    carriedResource = default(ResourceType2);
-
-                    if (isAssignedToCollect &amp;&amp; targetResourceDeposit != null)
-                    {
-                        AssignCollect(targetResourceDeposit.GetComponent&lt;ResourceDeposit2>());
-                    }
-                    else
-                    {
-                        CurrentState = WorkerState.Idle;
-                        UpdateAnimation();
-
-                        Debug.Log($"Worker2 [{gameObject.name}]: Deposit completed. Now Idle.");
-                    }
-                }
-                else
-                {
-                    Debug.LogWarning($"Worker2 [{gameObject.name}]: StorageDepot2 is full. Cannot deposit {carriedResource} now. Becoming Idle.");
-                    CurrentState = WorkerState.Idle;
-                    UpdateAnimation();
-
-                }
-            }
-            else
-            {
-                Debug.Log($"Worker2 [{gameObject.name}]: No resources to deposit.");
-                CurrentState = WorkerState.Idle;
-                UpdateAnimation();
-
-            }
-        }
-        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        private void CollectResource()
-        {
-            if (targetResourceDeposit == null)
-            {
-                Debug.LogError($"Worker2 [{gameObject.name}]: No target resource deposit to collect from.");
-                CurrentState = WorkerState.Idle;
-                UpdateAnimation();
-
-                return;
-            }
-
-            ResourceDeposit2 resourceData = targetResourceDeposit.GetComponent&lt;ResourceDeposit2&gt;();
-            if (resourceData == null)
-            {
-                Debug.LogError($"Worker2 [{gameObject.name}]: ResourceDeposit2 component missing on {targetResourceDeposit.name}.");
-                CurrentState = WorkerState.Idle;
-                UpdateAnimation();
-
-                return;
-            }
-
-            float distance = Vector3.Distance(transform.position, targetResourceDeposit.transform.position);
-            if (distance &gt; collectionRadius)
-            {
-                Debug.Log($"Worker2 [{gameObject.name}]: Moved out of collection radius for {targetResourceDeposit.name}. Assigning deposit.");
-
-                return;
-            }
-
-            int amountToCollect = carryCapacity - currentCarry;
-            int collectedAmount = resourceData.Collect(amountToCollect);
-
-            if (collectedAmount &gt; 0)
-            {
-                currentCarry += collectedAmount;
-                carriedResource = resourceData.resourceType;
-                Debug.Log($"Worker2 [{gameObject.name}]: Collected {collectedAmount} {carriedResource} from {targetResourceDeposit.name}.");
-
-                var audioController = GetComponent&lt;WorkerAudioController&gt;();
-                switch (carriedResource)
-                {
-                    case ResourceType2.Wood:
-                        audioController?.PlayWoodChop();
-                        break;
-                    case ResourceType2.Stone:
-                        audioController?.PlayStonePick();
-                        break;
-                    case ResourceType2.Mana:
-                        audioController?.PlayManaRing();
-                        break;
-                    case ResourceType2.Food:
-                        audioController?.PlayCropRustle();
-                        break;
-                }
-
-                AssignDeposit();
-            }
-            else
-            {
-                if (resourceData.totalResource &lt;= 0)
-                {
-                    Debug.Log($"Worker2 [{gameObject.name}]: {carriedResource} node depleted. Searching next node.");
-                    GameObject next = GetNearestResourceDepositOfType(carriedResource);
-                    if (next != null)
-                    {
-                        AssignCollect(next.GetComponent&lt;ResourceDeposit2&gt;());
-                        return;
-                    }
-                }
-
-                Debug.Log($"Worker2 [{gameObject.name}]: No resources to collect from {resourceData.resourceType}. Depositing/Idling.");
-                if (currentCarry &gt; 0)
-                    AssignDeposit();
-                else
-                    CurrentState = WorkerState.Idle;
-                UpdateAnimation();
-
-            }
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        private bool CanStorageDepotAccept(StorageDepot2 depot, ResourceType2 type, int amount)
-        {
-            int current = depot.GetTotalResource(type);
-            switch (type)
-            {
-                case ResourceType2.Stone: return current + amount &lt;= StorageDepot2.MaxStoneStorage;
-                case ResourceType2.Mana: return current + amount &lt;= StorageDepot2.MaxManaStorage;
-                case ResourceType2.Food: return current + amount &lt;= StorageDepot2.MaxFoodStorage;
-                case ResourceType2.Wood: return current + amount &lt;= StorageDepot2.MaxWoodStorage;
-                default:
-                    Debug.LogWarning($"Worker2 [{name}]: Unknown ResourceType2 {type}.");
-                    return false;
-            }
-        }
-        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        public void TakeDamage(float amount, GameObject attacker)
-        {
-            currentHealth -= amount;
-            currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
-            Debug.Log($"{gameObject.name} took {amount} damage from {attacker.name}. Current Health: {currentHealth}");
-
-            if (healthBarSlider != null)
-            {
-
-            }
-            else
-            {
-                Debug.LogWarning("Worker2: HealthBarSlider is null.");
-            }
-
-            if (currentHealth &lt;= 0)
-            {
-                Die(attacker);
-            }
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        private void Die(GameObject attacker)
-        {
-            Debug.Log($"{gameObject.name} has been destroyed by {attacker.name}.");
-            animator.SetTrigger("Die");
-            agent.enabled = false;
-            GetComponent&lt;Collider&gt;().enabled = false;
-            GetComponent&lt;WorkerAudioController&gt;()?.PlayDeath();
-            if (selectionVFXInstance != null)
-                Destroy(selectionVFXInstance);
-            Destroy(gameObject, 2f);
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        private GameObject GetNearestResourceDepositOfType(ResourceType2 type)
-        {
-            RefreshAvailableResourceDeposits();
-            GameObject nearest = null;
-            float minDist = Mathf.Infinity;
-            Vector3 myPos = transform.position;
-
-            foreach (GameObject obj in availableResourceDeposits)
-            {
-                var data = obj.GetComponent&lt;ResourceDeposit2&gt;();
-                if (data == null || data.resourceType != type) continue;
-                if (obj == targetResourceDeposit) continue;
-
-                float d = Vector3.Distance(myPos, obj.transform.position);
-                if (d &lt; minDist)
-                {
-                    minDist = d;
-                    nearest = obj;
-                }
-            }
-            return nearest;
-        }
-                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-csharp">
-        private void UpdateAnimation()
-        {
-            bool working = (currentState == WorkerState.Idle);
-            animator.SetBool("IsWorking", working);
-
-            bool walking = (currentState != WorkerState.Idle);
-            animator.SetBool("IsWalking", walking);
-        }
-
+        // ... (see full source on GitHub)
     }
-                                        </code></pre>
+                                                    </code></pre>
                                                 </div>
                                             </div>
-                                            <button class="carousel-control-prev" type="button"
-                                                data-bs-target="#workerCodeCarousel" data-bs-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Previous</span>
-                                            </button>
-                                            <button class="carousel-control-next" type="button"
-                                                data-bs-target="#workerCodeCarousel" data-bs-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Next</span>
-                                            </button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <ul>
-                            <li><strong>Skills:</strong> Unity, C#, Algorithms (A* Pathfinding), Procedural Generation, System Architecture, UI/UX Design, VFX, Adaptive Audio
-                            </li>
+                            <li><strong>Skills:</strong> Unity, C#, Algorithms (A* Pathfinding), Procedural Generation, System Architecture, UI/UX Design, VFX, Adaptive Audio</li>
                         </ul>
                     </div>
                 </div>
-                <!-- VR Experience -->
+
+                <!-- ═══════════════════════════════════════════════════════
+                     EXISTING — Boise Virtual Heritage Tour (VR)
+                     ═══════════════════════════════════════════════════════ -->
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="project-card">
                         <h4><i class="fa-solid fa-vr-cardboard"></i> Boise Virtual Heritage Tour (VR)</h4>
@@ -1292,7 +500,6 @@
                             An immersive historical preservation application using the Unity XR Toolkit. Optimized for high-fidelity performance with 360° video integration and interactive spatial audio triggers.
                         </p>
                         <div class="accordion" id="vrCarousels">
-                            <!-- ▶️ Panel 1: VR Tour Gallery -->
                             <div class="accordion-item bg-transparent border-0">
                                 <h2 class="accordion-header" id="headingVRImgs">
                                     <button class="accordion-button collapsed bg-dark text-white" type="button"
@@ -1301,35 +508,28 @@
                                         VR Tour Gallery
                                     </button>
                                 </h2>
-                                <div id="collapseVRImgs" class="accordion-collapse collapse"
-                                    data-bs-parent="#vrCarousels">
+                                <div id="collapseVRImgs" class="accordion-collapse collapse" data-bs-parent="#vrCarousels">
                                     <div class="accordion-body p-0">
                                         <div id="vrImageCarousel" class="carousel slide mb-3" data-bs-ride="false"
                                             data-bs-interval="false">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <img src="images/AnnFrank.jpg" class="d-block w-100 rounded"
-                                                        alt="VR Scene 1">
+                                                    <img src="images/AnnFrank.jpg" class="d-block w-100 rounded" alt="VR Scene 1">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/BoiseRiver.jpg" class="d-block w-100 rounded"
-                                                        alt="VR Scene 2">
+                                                    <img src="images/BoiseRiver.jpg" class="d-block w-100 rounded" alt="VR Scene 2">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/BoiseCapitol.jpg" class="d-block w-100 rounded"
-                                                        alt="VR Scene 3">
+                                                    <img src="images/BoiseCapitol.jpg" class="d-block w-100 rounded" alt="VR Scene 3">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/FreakAlley.jpg" class="d-block w-100 rounded"
-                                                        alt="VR Scene 4">
+                                                    <img src="images/FreakAlley.jpg" class="d-block w-100 rounded" alt="VR Scene 4">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/OldState.jpg" class="d-block w-100 rounded"
-                                                        alt="VR Scene 5">
+                                                    <img src="images/OldState.jpg" class="d-block w-100 rounded" alt="VR Scene 5">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/OregonTrail.jpg" class="d-block w-100 rounded"
-                                                        alt="VR Scene 6">
+                                                    <img src="images/OregonTrail.jpg" class="d-block w-100 rounded" alt="VR Scene 6">
                                                 </div>
                                             </div>
                                             <button class="carousel-control-prev" type="button"
@@ -1346,7 +546,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- ▶️ Panel 2: Experience Demo Video -->
                             <div class="accordion-item bg-transparent border-0">
                                 <h2 class="accordion-header" id="headingVRVid">
                                     <button class="accordion-button collapsed bg-dark text-white" type="button"
@@ -1355,36 +554,28 @@
                                         Experience Demo
                                     </button>
                                 </h2>
-                                <div id="collapseVRVid" class="accordion-collapse collapse"
-                                    data-bs-parent="#vrCarousels">
+                                <div id="collapseVRVid" class="accordion-collapse collapse" data-bs-parent="#vrCarousels">
                                     <div class="accordion-body p-0">
-                                        <div id="vrVideoCarousel" class="carousel slide mb-3" data-bs-ride="false"
-                                            data-bs-interval="false">
-                                            <div class="carousel-inner">
-                                                <div class="carousel-item active">
-                                                    <video class="d-block w-100" controls preload="metadata"
-                                                        style="object-fit: contain;">
-                                                        <source src="images/Bubbles.mp4" type="video/mp4">
-                                                        Your browser doesn’t support HTML5 video.
-                                                    </video>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <video class="d-block w-100" controls preload="metadata" style="object-fit: contain;">
+                                            <source src="images/Bubbles.mp4" type="video/mp4">
+                                            Your browser doesn't support HTML5 video.
+                                        </video>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <ul>
-                            <li><strong>Skills:</strong> Unity XR Toolkit, Performance Optimization, VR UX Design, C#, 360 Video
-                            </li>
+                            <li><strong>Skills:</strong> Unity XR Toolkit, Performance Optimization, VR UX Design, C#, 360 Video</li>
                         </ul>
                     </div>
                 </div>
-                <!-- Interactive Comic -->
+
+                <!-- ═══════════════════════════════════════════════════════
+                     EXISTING — Consciousness, Death & Quantum Mechanics
+                     ═══════════════════════════════════════════════════════ -->
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="project-card">
-                        <h4><i class="fa-solid fa-book-open"></i> Consciousness, Death, and the Implications of Quantum
-                            Mechanics</h4>
+                        <h4><i class="fa-solid fa-book-open"></i> Consciousness, Death, and the Implications of Quantum Mechanics</h4>
                         <p class="small">
                             An interactive comic strip that explores complex ideas through simple storytelling. Readers
                             navigate branching paths to understand consciousness, death, and quantum mechanics in an
@@ -1399,8 +590,7 @@
                                         Comic Panels
                                     </button>
                                 </h2>
-                                <div id="collapseComic" class="accordion-collapse collapse" data-bs-parent="#comicAcc"
-                                    aria-labelledby="headingComic">
+                                <div id="collapseComic" class="accordion-collapse collapse" data-bs-parent="#comicAcc">
                                     <div class="accordion-body p-0">
                                         <div id="comicCarousel" class="carousel slide mb-3" data-bs-ride="false"
                                             data-bs-interval="false">
@@ -1408,69 +598,35 @@
                                                 <div class="carousel-item active">
                                                     <img src="images/Panel 1.png" class="d-block w-100" alt="Panel 1">
                                                 </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 2.png" class="d-block w-100" alt="Panel 2">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 3.png" class="d-block w-100" alt="Panel 3">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 4.png" class="d-block w-100" alt="Panel 4">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 5.png" class="d-block w-100" alt="Panel 5">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 6.png" class="d-block w-100" alt="Panel 6">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 7.png" class="d-block w-100" alt="Panel 7">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 8.png" class="d-block w-100" alt="Panel 8">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 9.png" class="d-block w-100" alt="Panel 9">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 10.png" class="d-block w-100" alt="Panel 10">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 11.png" class="d-block w-100" alt="Panel 11">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 12.png" class="d-block w-100" alt="Panel 12">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 13.png" class="d-block w-100" alt="Panel 13">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 14.png" class="d-block w-100" alt="Panel 14">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 15.png" class="d-block w-100" alt="Panel 15">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 16.png" class="d-block w-100" alt="Panel 16">
-                                                </div>
+                                                <div class="carousel-item"><img src="images/Panel 2.png" class="d-block w-100" alt="Panel 2"></div>
+                                                <div class="carousel-item"><img src="images/Panel 3.png" class="d-block w-100" alt="Panel 3"></div>
+                                                <div class="carousel-item"><img src="images/Panel 4.png" class="d-block w-100" alt="Panel 4"></div>
+                                                <div class="carousel-item"><img src="images/Panel 5.png" class="d-block w-100" alt="Panel 5"></div>
+                                                <div class="carousel-item"><img src="images/Panel 6.png" class="d-block w-100" alt="Panel 6"></div>
+                                                <div class="carousel-item"><img src="images/Panel 7.png" class="d-block w-100" alt="Panel 7"></div>
+                                                <div class="carousel-item"><img src="images/Panel 8.png" class="d-block w-100" alt="Panel 8"></div>
+                                                <div class="carousel-item"><img src="images/Panel 9.png" class="d-block w-100" alt="Panel 9"></div>
+                                                <div class="carousel-item"><img src="images/Panel 10.png" class="d-block w-100" alt="Panel 10"></div>
+                                                <div class="carousel-item"><img src="images/Panel 11.png" class="d-block w-100" alt="Panel 11"></div>
+                                                <div class="carousel-item"><img src="images/Panel 12.png" class="d-block w-100" alt="Panel 12"></div>
+                                                <div class="carousel-item"><img src="images/Panel 13.png" class="d-block w-100" alt="Panel 13"></div>
+                                                <div class="carousel-item"><img src="images/Panel 14.png" class="d-block w-100" alt="Panel 14"></div>
+                                                <div class="carousel-item"><img src="images/Panel 15.png" class="d-block w-100" alt="Panel 15"></div>
+                                                <div class="carousel-item"><img src="images/Panel 16.png" class="d-block w-100" alt="Panel 16"></div>
                                                 <div class="carousel-item">
                                                     <video class="d-block w-100" controls>
                                                         <source src="images/Panel 17.mp4" type="video/mp4">
                                                         Your browser does not support HTML5 video.
                                                     </video>
                                                 </div>
-                                                <div class="carousel-item">
-                                                    <img src="images/Panel 18.png" class="d-block w-100" alt="Panel 18">
-                                                </div>
+                                                <div class="carousel-item"><img src="images/Panel 18.png" class="d-block w-100" alt="Panel 18"></div>
                                             </div>
                                             <button class="carousel-control-prev" type="button"
-                                                data-bs-target="#comicCarousel" data-bs-slide="prev"
-                                                aria-label="Previous slide">
+                                                data-bs-target="#comicCarousel" data-bs-slide="prev">
                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             </button>
                                             <button class="carousel-control-next" type="button"
-                                                data-bs-target="#comicCarousel" data-bs-slide="next"
-                                                aria-label="Next slide">
+                                                data-bs-target="#comicCarousel" data-bs-slide="next">
                                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             </button>
                                         </div>
@@ -1483,13 +639,17 @@
                         </ul>
                     </div>
                 </div>
-                <!-- Interactive Short Story -->
+
+                <!-- ═══════════════════════════════════════════════════════
+                     EXISTING — Interactive AR Narrative Application
+                     ═══════════════════════════════════════════════════════ -->
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="project-card">
                         <h4><i class="fa-solid fa-code"></i> Interactive AR Narrative Application</h4>
                         <p class="small">
-                            Engineered a mobile AR application using Unity and Vuforia to enhance physical media. 
-                            Implemented computer vision to anchor 3D interactive scenes onto printed pages, creating a seamless bridge between physical reading and digital gameplay.
+                            Engineered a mobile AR application using Unity and Vuforia to enhance physical media.
+                            Implemented computer vision to anchor 3D interactive scenes onto printed pages, creating
+                            a seamless bridge between physical reading and digital gameplay.
                         </p>
                         <div class="accordion" id="storyAcc">
                             <div class="accordion-item bg-transparent border-0">
@@ -1500,46 +660,34 @@
                                         Images Used in Story
                                     </button>
                                 </h2>
-                                <div id="collapseStory" class="accordion-collapse collapse" data-bs-parent="#storyAcc"
-                                    aria-labelledby="headingStory">
+                                <div id="collapseStory" class="accordion-collapse collapse" data-bs-parent="#storyAcc">
                                     <div class="accordion-body p-0">
                                         <div id="interactiveStoryCarousel" class="carousel slide mb-3"
                                             data-bs-ride="false" data-bs-interval="false">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <img src="images/Database_in_unity.png"
-                                                        class="d-block w-100 rounded"
-                                                        alt="Database in Unity screenshot">
+                                                    <img src="images/Database_in_unity.png" class="d-block w-100 rounded" alt="Database in Unity">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/Dual_scaled.jpg" class="d-block w-100 rounded"
-                                                        alt="Dual scaled screenshot">
+                                                    <img src="images/Dual_scaled.jpg" class="d-block w-100 rounded" alt="Dual scaled">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/KnightTower_scaled.jpg"
-                                                        class="d-block w-100 rounded"
-                                                        alt="Knight Tower scaled screenshot">
+                                                    <img src="images/KnightTower_scaled.jpg" class="d-block w-100 rounded" alt="Knight Tower">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/PrincessTower_scaled.jpg"
-                                                        class="d-block w-100 rounded"
-                                                        alt="Princess Tower scaled screenshot">
+                                                    <img src="images/PrincessTower_scaled.jpg" class="d-block w-100 rounded" alt="Princess Tower">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="images/BridgeTerrain_scaled.jpg"
-                                                        class="d-block w-100 rounded"
-                                                        alt="Bridge terrain scaled screenshot">
+                                                    <img src="images/BridgeTerrain_scaled.jpg" class="d-block w-100 rounded" alt="Bridge Terrain">
                                                 </div>
                                             </div>
                                             <button class="carousel-control-prev" type="button"
-                                                data-bs-target="#interactiveStoryCarousel" data-bs-slide="prev"
-                                                aria-label="Previous slide">
+                                                data-bs-target="#interactiveStoryCarousel" data-bs-slide="prev">
                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                                 <span class="visually-hidden">Previous</span>
                                             </button>
                                             <button class="carousel-control-next" type="button"
-                                                data-bs-target="#interactiveStoryCarousel" data-bs-slide="next"
-                                                aria-label="Next slide">
+                                                data-bs-target="#interactiveStoryCarousel" data-bs-slide="next">
                                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                                 <span class="visually-hidden">Next</span>
                                             </button>
@@ -1553,15 +701,18 @@
                         </ul>
                     </div>
                 </div>
-                <!-- Medication Database -->
+
+                <!-- ═══════════════════════════════════════════════════════
+                     EXISTING — Clinical Pharmaceutical Reference System
+                     ═══════════════════════════════════════════════════════ -->
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="project-card">
                         <h4><i class="fa-solid fa-database"></i> Clinical Pharmaceutical Reference System</h4>
                         <p class="small">
-                            Architected a full-stack web application to query and display complex medication parameters (dosages, forms, contraindications). 
-                            Designed a normalized SQL schema with a PHP front-end to ensure rapid, accurate data retrieval for clinical decision support.
+                            Architected a full-stack web application to query and display complex medication parameters
+                            (dosages, forms, contraindications). Designed a normalized SQL schema with a PHP front-end
+                            to ensure rapid, accurate data retrieval for clinical decision support.
                         </p>
-
                         <div class="accordion" id="medicationAcc">
                             <div class="accordion-item bg-transparent border-0">
                                 <h2 class="accordion-header" id="headingScreenshots">
@@ -1574,49 +725,37 @@
                                 <div id="collapseScreenshots" class="accordion-collapse collapse"
                                     data-bs-parent="#medicationAcc">
                                     <div class="accordion-body p-0">
-                                        <div class="ratio ratio-16x9 mb-3">
-                                            <div id="medImagesCarousel" class="carousel slide h-100"
-                                                data-bs-ride="false" data-bs-interval="false">
-                                                <div class="carousel-inner h-100">
-                                                    <div class="carousel-item active">
-                                                        <img src="images/Table_burger.png" class="d-block w-100 rounded"
-                                                            alt="Medications table (collapsed)">
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="images/Table_unburger.png"
-                                                            class="d-block w-100 rounded"
-                                                            alt="Medications table (expanded)">
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="images/New_med.png" class="d-block w-100 rounded"
-                                                            alt="Insert new medication form">
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="images/Edit_med.png" class="d-block w-100 rounded"
-                                                            alt="Edit medication form">
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="images/Delete_med.png" class="d-block w-100 rounded"
-                                                            alt="Confirm delete medication">
-                                                    </div>
+                                        <div id="medImagesCarousel" class="carousel slide mb-3" data-bs-ride="false"
+                                            data-bs-interval="false">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/Table_burger.png" class="d-block w-100 rounded" alt="Medications table (collapsed)">
                                                 </div>
-                                                <button class="carousel-control-prev" type="button"
-                                                    data-bs-target="#medImagesCarousel" data-bs-slide="prev"
-                                                    aria-label="Previous slide">
-                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                </button>
-                                                <button class="carousel-control-next" type="button"
-                                                    data-bs-target="#medImagesCarousel" data-bs-slide="next"
-                                                    aria-label="Next slide">
-                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                </button>
+                                                <div class="carousel-item">
+                                                    <img src="images/Table_unburger.png" class="d-block w-100 rounded" alt="Medications table (expanded)">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/New_med.png" class="d-block w-100 rounded" alt="Insert new medication">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/Edit_med.png" class="d-block w-100 rounded" alt="Edit medication">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/Delete_med.png" class="d-block w-100 rounded" alt="Confirm delete">
+                                                </div>
                                             </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#medImagesCarousel" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#medImagesCarousel" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- ▶️ HTML Snippets Panel -->
                             <div class="accordion-item bg-transparent border-0">
                                 <h2 class="accordion-header" id="headingMedHtml">
                                     <button class="accordion-button collapsed bg-dark text-white" type="button"
@@ -1632,126 +771,28 @@
                                             data-bs-interval="false">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <pre><code class="language-html">
-        &lt;form id="filterForm" class="row g-3" novalidate&gt;
-        &lt;div class="col-12 col-md-6"&gt;
-            &lt;label for="medicationName" class="form-label"&gt;Name&lt;/label&gt;
-            &lt;input type="text" id="medicationName" name="medicationName"
-                    class="form-control" required&gt;
-            &lt;div class="invalid-feedback"&gt;&lt;/div&gt;
-        &lt;/div&gt;
-        &lt;!-- ...other form fields... --&gt;
-        &lt;/form&gt;
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-html">
-        &lt;div class="col-12 col-md-6"&gt;
-        &lt;label for="category_id" class="form-label"&gt;Category&lt;/label&gt;
-        &lt;select id="category_id" name="category_id"
-                class="form-select" required&gt;
-        &lt;/select&gt;
-        &lt;div class="invalid-feedback"&gt;&lt;/div&gt;
-        &lt;/div&gt;
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-html">
-        &lt;nav class="navbar navbar-expand-lg navbar-light bg-light mb-4"&gt;
-        &lt;div class="container-fluid"&gt;
-            &lt;a class="navbar-brand" href="#"&gt;Medications&lt;/a&gt;
-            &lt;button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#filterCollapse"
-                    aria-controls="filterCollapse" aria-expanded="false"
-                    aria-label="Toggle filter"&gt;
-            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
-            &lt;/button&gt;
-            &lt;div class="collapse navbar-collapse" id="filterCollapse"&gt;
-            &lt;!-- filter form here --&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;/nav&gt;
-                                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-html">
-        &lt;table class="table table-striped table-hover"&gt;
-        &lt;thead&gt;
-            &lt;tr&gt;
-            &lt;th scope="col"&gt;ID&lt;/th&gt;
-            &lt;th scope="col"&gt;Name&lt;/th&gt;
-            &lt;!-- ...other headers... --&gt;
-            &lt;th scope="col"&gt;Actions&lt;/th&gt;
-            &lt;/tr&gt;
-        &lt;/thead&gt;
-        &lt;tbody&gt;
-            &lt;!-- rows injected via JS --&gt;
-        &lt;/tbody&gt;
-        &lt;/table&gt;
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-html">
-        &lt;form id="addForm" class="row g-3" novalidate&gt;
-        &lt;div class="col-12 col-md-6"&gt;
-            &lt;label for="medicationName" class="form-label"&gt;Name&lt;/label&gt;
-            &lt;input type="text" id="medicationName" name="medicationName"
-                    class="form-control" required&gt;
-            &lt;div class="invalid-feedback"&gt;&lt;/div&gt;
-        &lt;/div&gt;
-        &lt;!-- ...other fields... --&gt;
-        &lt;/form&gt;
-                                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-html">
-        &lt;div class="col-12 col-md-6"&gt;
-        &lt;label for="category_id" class="form-label"&gt;Category&lt;/label&gt;
-        &lt;select id="category_id" name="category_id"
-                class="form-select" required&gt;
-            &lt;option value=""&gt;Loading…&lt;/option&gt;
-        &lt;/select&gt;
-        &lt;div class="invalid-feedback"&gt;&lt;/div&gt;
-        &lt;/div&gt;
-                                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-html">
-        &lt;div class="container py-5 text-center"&gt;
-        &lt;h1 class="mb-3"&gt;Are you sure?&lt;/h1&gt;
-        &lt;p class="mb-4 text-danger"&gt;This action cannot be undone.&lt;/p&gt;
-        &lt;div class="d-flex justify-content-center gap-2"&gt;
-            &lt;button id="del" class="btn btn-danger"&gt;Delete&lt;/button&gt;
-            &lt;button id="cancel" class="btn btn-secondary"&gt;Cancel&lt;/button&gt;
-        &lt;/div&gt;
-        &lt;div id="message" class="mt-4"&gt;&lt;/div&gt;
-        &lt;a href="index.html" class="btn btn-link mt-2"&gt;Main Table&lt;/a&gt;
-        &lt;/div&gt;
-                                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-html">
-        &lt;button id="del" class="btn btn-danger"&gt;Delete&lt;/button&gt;
-        &lt;button id="cancel" class="btn btn-secondary"&gt;Cancel&lt;/button&gt;
-                                                        </code></pre>
+                                                    <pre><code class="language-html">&lt;form id="filterForm" class="row g-3" novalidate&gt;
+  &lt;div class="col-12 col-md-6"&gt;
+    &lt;label for="medicationName" class="form-label"&gt;Name&lt;/label&gt;
+    &lt;input type="text" id="medicationName" name="medicationName"
+           class="form-control" required&gt;
+    &lt;div class="invalid-feedback"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/form&gt;</code></pre>
                                                 </div>
                                             </div>
                                             <button class="carousel-control-prev" type="button"
-                                                data-bs-target="#medHtmlCarousel" data-bs-slide="prev"
-                                                aria-label="Previous slide">
+                                                data-bs-target="#medHtmlCarousel" data-bs-slide="prev">
                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             </button>
                                             <button class="carousel-control-next" type="button"
-                                                data-bs-target="#medHtmlCarousel" data-bs-slide="next"
-                                                aria-label="Next slide">
+                                                data-bs-target="#medHtmlCarousel" data-bs-slide="next">
                                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             </button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- ▶ Panel 3: JavaScript Code Carousel -->
                             <div class="accordion-item bg-transparent border-0">
                                 <h2 class="accordion-header" id="headingJS">
                                     <button class="accordion-button collapsed bg-dark text-white" type="button"
@@ -1767,323 +808,39 @@
                                             data-bs-interval="false">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <pre><code class="language-javascript">
-        async function populateDropdowns() {
-            try {
-                const res = await fetch('/categories/');
-                const { data: categories } = await res.json();
-                const catSel = document.getElementById('category_id');
-                catSel.innerHTML = '&lt;option value=""&gt;Select a category&lt;/option&gt;';
-                categories.forEach(c =&gt; {
-                    const o = document.createElement('option');
-                    o.value = c.id;
-                    o.textContent = c.name;
-                    catSel.appendChild(o);
-                });
-            } catch (e) {
-                console.error('[ERROR] loading categories', e);
-            }
-            // Similar logic for routes…
-        }
-        document.addEventListener('DOMContentLoaded', populateDropdowns);
-                                                    </code></pre>
+                                                    <pre><code class="language-javascript">async function populateDropdowns() {
+  const res = await fetch('/categories/');
+  const { data: categories } = await res.json();
+  const catSel = document.getElementById('category_id');
+  catSel.innerHTML = '&lt;option value=""&gt;Select a category&lt;/option&gt;';
+  categories.forEach(c =&gt; {
+    const o = document.createElement('option');
+    o.value = c.id;
+    o.textContent = c.name;
+    catSel.appendChild(o);
+  });
+}
+document.addEventListener('DOMContentLoaded', populateDropdowns);</code></pre>
                                                 </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        document.getElementById('submit').onclick = async (evt) => {
-            evt.preventDefault();
-            // clear previous validation states
-            form.querySelectorAll('.is-invalid').forEach(el =&gt; el.classList.remove('is-invalid'));
-            form.querySelectorAll('.invalid-feedback').forEach(el =&gt; el.textContent = '');
-        
-            const fd = new FormData(form);
-            const resp = await fetch('/medications/', { method: 'POST', body: fd });
-            const json = await resp.json();
-        
-            if (resp.status === 200) {
-                messageDiv.innerHTML = '&lt;div class="success"&gt;Medication added successfully!&lt;/div&gt;';
-            } else {
-                messageDiv.innerHTML = '&lt;div class="error-banner"&gt;Please fix the errors above.&lt;/div&gt;';
-                (json.errors || []).forEach(err =&gt; {
-                    const fld = document.getElementById(err.param || err.path);
-                    fld.classList.add('is-invalid');
-                    fld.nextElementSibling.textContent = err.msg;
-                });
-            }
-        };
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        const id = new URLSearchParams(window.location.search).get('id');
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        document.getElementById('del').onclick = () =&gt; {
-            fetch(`/medications/${id}/`, { method: 'DELETE' })
-                .then(r =&gt; {
-                    if (r.ok) {
-                        document.getElementById('message').innerHTML =
-                            '&lt;div class="success"&gt;Medication deleted successfully!&lt;/div&gt;';
-                        document.getElementById('del').disabled = true;
-                        document.getElementById('cancel').disabled = true;
-                    } else {
-                        document.getElementById('message').innerHTML =
-                            '&lt;div class="error-banner"&gt;Failed to delete. Try again.&lt;/div&gt;';
-                    }
-                })
-                .catch(() =&gt; {
-                    document.getElementById('message').innerHTML =
-                        '&lt;div class="error-banner"&gt;Network error. Try again later.&lt;/div&gt;';
-                });
-        };     
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        async function fetchOptionsAndPrefill(med) {
-            const catSel = document.getElementById('category_id');
-            const categories = (await (await fetch('/categories/')).json()).data;
-            categories.forEach(c =&gt; {
-                const opt = document.createElement('option');
-                opt.value = c.id;
-                opt.textContent = c.name;
-                if (c.id == med.category_id) opt.selected = true;
-                catSel.appendChild(opt);
-            });
-            // Repeat for routes…
-        }
-        
-        fetch(`/medications/${id}/`)
-            .then(r =&gt; r.json().then(json =&gt; json.data))
-            .then(med =&gt; {
-                document.getElementById('medicationName').value = med.medication_name;
-                // … other fields …
-                fetchOptionsAndPrefill(med);
-            });         
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        document.getElementById('update').onclick = async (event) => {
-            event.preventDefault();
-            form.querySelectorAll('.is-invalid').forEach(el =&gt; el.classList.remove('is-invalid'));
-            form.querySelectorAll('.invalid-feedback').forEach(el =&gt; el.textContent = '');
-        
-            const fd = new FormData();
-            ['medicationName','strength','form','ndc','category_id','route_id']
-                .forEach(key =&gt; {
-                    const v = document.getElementById(key).value;
-                    if (v) fd.append(key, v);
-                });
-        
-            const resp = await fetch(`/medications/${id}/`, { method: 'PUT', body: fd });
-            const json = await resp.json();
-            if (resp.status === 200) {
-                messageDiv.innerHTML = '&lt;div class="success"&gt;Medication updated successfully!&lt;/div&gt;';
-            } else {
-                messageDiv.innerHTML = '&lt;div class="error-banner"&gt;Please fix the errors above.&lt;/div&gt;';
-                (json.errors || []).forEach(err =&gt; {
-                    const fld = document.getElementById(err.param || err.path);
-                    fld.classList.add('is-invalid');
-                    fld.nextElementSibling.textContent = err.msg;
-                });
-            }
-        };
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        async function populateFilters() {
-            const cats = (await (await fetch('/categories/')).json()).data;
-            const catSel = document.getElementById('category');
-            cats.forEach(c =&gt; {
-                const opt = document.createElement('option');
-                opt.value = c.name;
-                opt.textContent = c.name;
-                catSel.appendChild(opt);
-            });
-            // Repeat for routes…
-        }
-        document.addEventListener('DOMContentLoaded', populateFilters);
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        function loadTable(params) {
-            fetch('/medications/?' + params.toString())
-                .then(r =&gt; r.json().then(json =&gt; ({ status: r.status, json })))
-                .then(({ status, json }) =&gt; {
-                    let tbl = `&lt;table class="table"&gt;&lt;thead&gt;…&lt;/thead&gt;&lt;tbody&gt;`;
-                    json.data.forEach(m =&gt; {
-                        tbl += `&lt;tr&gt;
-                        &lt;td&gt;${m.id}&lt;/td&gt;
-                        &lt;td&gt;${m.medication_name}&lt;/td&gt;
-                        &lt;!-- …other cells… --&gt;
-                        &lt;td&lt;a href="edit.html?id=${m.id}"&gt;Edit&lt;/a&gt; - &lt;a href="delete.html?id=${m.id}"&gt;Delete&lt;/a&gt;&lt;/td&gt;
-                        &lt;/tr&gt;`;
-                    });
-                    tbl += `&lt;/tbody&gt;&lt;/table&gt;`;
-                    listDiv.innerHTML = tbl;
-                });
-        }
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        let connection = null;
-
-        async function query(sql, params = []) {
-            if (!connection) {
-                connection = await mysql.createConnection({
-                    host: 'student-databases.cvode4s4cwrc.us-west-2.rds.amazonaws.com',
-                    user: 'baylenfarmer',
-                    password: 'gDjPsBoHVRrWFoQD9wXtoK8k6oEJa5jPPA4',
-                    database: 'baylenfarmer'
-                });
-            }
-            const [results] = await connection.query(sql, params);
-            return results;
-        }                                                        
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        module.exports = { query };
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        if (filters.name) {
-            clauses.push(`m.medication_name LIKE ?`);
-            params.push(`%${filters.name}%`);
-            }
-            if (filters.category) {
-            clauses.push(`c.name = ?`);
-            params.push(filters.category);
-            }
-            if (clauses.length) {
-            sql += ' WHERE ' + clauses.join(' AND ');
-            }
-            // ...
-            if (filters.sort_by) { /* determine field &amp; direction */ }
-            else {
-            sql += ' ORDER BY m.medication_name ASC';
-            }
-            const limit = parseInt(filters.limit, 10) || 10;
-            sql += ' LIMIT ?';
-            params.push(limit);
-            const results = await connection.query(sql, params);
-            return results;                                                      
-                                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        async function insert({ medicationName, strength, form, ndc, category_id, route_id }) {
-            const sql = `
-                INSERT INTO medications
-                (medication_name, strength, form, ndc, category_id, route_id)
-                VALUES (?, ?, ?, ?, ?, ?)
-            `;
-            return await connection.query(sql, [
-                medicationName,
-                strength,
-                form,
-                ndc,
-                category_id,
-                route_id
-            ]);
-            }                                                      
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        app.get(
-            '/medications/',
-            upload.none(),
-            async (req, res) =&gt; {
-                try {
-                const rows = await medication.getAll(req.query);
-                return res.json({ data: rows });
-                } catch (e) {
-                console.error(e);
-                return res.status(500).json({ message: 'Server error fetching medications.' });
-                }
-            }
-            );                                                      
-                                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        app.post(
-            '/medications/',
-            upload.none(),
-            [
-                medicationNameValidation,
-                strengthValidation,
-                formValidation,
-                ndcValidation,
-                categoryValidation,
-                routeValidation
-            ],
-            async (req, res) =&gt; {
-                const errors = validationResult(req);
-                if (!errors.isEmpty()) {
-                return res
-                    .status(400)
-                    .json({ message: 'Validation errors.', errors: errors.array() });
-                }
-                try {
-                await medication.insert(req.body);
-                return res.json({ data: 'Medication added!' });
-                } catch (e) {
-                console.error(e);
-                return res.status(500).json({ message: 'Server error adding medication.' });
-                }
-            }
-            );                                                      
-                                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">
-        const medicationNameValidation = body('medicationName')
-        .trim()
-        .notEmpty()
-        .withMessage('You need to enter a medication name');                                                  
-                                                        </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-javascript">     
-        const categoryValidation = body('category_id')
-        .toInt()
-        .isInt({ min: 1 })
-        .withMessage('You need to enter a category');                                              
-                                                        </code></pre>
-                                                </div>
-                                                <button class="carousel-control-prev" type="button"
-                                                    data-bs-target="#jsCarousel" data-bs-slide="prev"
-                                                    aria-label="Previous slide">
-                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                </button>
-                                                <button class="carousel-control-next" type="button"
-                                                    data-bs-target="#jsCarousel" data-bs-slide="next"
-                                                    aria-label="Next slide">
-                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                </button>
                                             </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#jsCarousel" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#jsCarousel" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- ▶ Panel 4: SQL Schema & Queries -->
                             <div class="accordion-item bg-transparent border-0">
                                 <h2 class="accordion-header" id="headingSQL">
                                     <button class="accordion-button collapsed bg-dark text-white" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseSQL" aria-expanded="false"
                                         aria-controls="collapseSQL">
-                                        SQL Schema & Queries
+                                        SQL Schema &amp; Queries
                                     </button>
                                 </h2>
                                 <div id="collapseSQL" class="accordion-collapse collapse"
@@ -2093,72 +850,39 @@
                                             data-bs-interval="false">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <pre><code class="language-sql">
-        CREATE TABLE `medications` (
-            `id` int NOT NULL,
-            `medication_name` varchar(255) NOT NULL,
-            `strength` varchar(255) NOT NULL,
-            `form` varchar(255) NOT NULL,
-            `ndc` varchar(255) NOT NULL,
-            `category` varchar(255) NOT NULL,
-            `route` varchar(255) NOT NULL
-            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;                                                                                                         
-                                                </code></pre>
+                                                    <pre><code class="language-sql">CREATE TABLE `medications` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `medication_name` varchar(255) NOT NULL,
+  `strength` varchar(255) NOT NULL,
+  `form` varchar(255) NOT NULL,
+  `ndc` varchar(255) NOT NULL,
+  `category_id` int NOT NULL,
+  `route_id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;</code></pre>
                                                 </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-sql">
-        ALTER TABLE `medications`
-        ADD COLUMN `category_id` INT NOT NULL AFTER `ndc`,
-        ADD COLUMN `route_id`    INT NOT NULL AFTER `category_id`,
-        ADD INDEX (`category_id`),
-        ADD INDEX (`route_id`);
-        
-        UPDATE `medications` m
-        JOIN `categories` c ON m.category = c.name
-        SET m.category_id = c.id;
-        
-        UPDATE `medications` m
-        JOIN `routes` r ON m.route = r.name
-        SET m.route_id = r.id;                                                  
-                                                </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-sql">
-        SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-        START TRANSACTION;
-        SET time_zone = "+00:00";                                                    
-                                                    </code></pre>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <pre><code class="language-sql">
-        ALTER TABLE `medications`
-        MODIFY `id` int NOT NULL AUTO_INCREMENT;
-        COMMIT;                                                  
-                                                </code></pre>
-                                                </div>
-                                                <button class="carousel-control-prev" type="button"
-                                                    data-bs-target="#sqlCarousel" data-bs-slide="prev"
-                                                    aria-label="Previous slide">
-                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                </button>
-                                                <button class="carousel-control-next" type="button"
-                                                    data-bs-target="#sqlCarousel" data-bs-slide="next"
-                                                    aria-label="Next slide">
-                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                </button>
                                             </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#sqlCarousel" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#sqlCarousel" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <ul>
-                                <li><strong>Skills:</strong> SQL, PHP, JavaScript, Relational Database Design</li>
-                            </ul>
                         </div>
+                        <ul>
+                            <li><strong>Skills:</strong> SQL, PHP, JavaScript, Relational Database Design</li>
+                        </ul>
                     </div>
                 </div>
+
                 <hr />
             </div>
+        </div>
     </section>
 
     <!-- EXPERIENCE -->
@@ -2188,13 +912,23 @@
     <section id="education">
         <div class="overlay container">
             <h2>Education</h2>
-            <h3>B.S., Games, Interactive Media & Mobile</h3>
+            <h3>M.S., Cyber Operations and Resilience</h3>
+            <p><em>Boise State University | 2024 – 2026</em></p>
+            <p>
+                <strong>Concentrations:</strong> Graduate Certificates in Analyst & Threat Intelligence; Resilience Engineering
+            </p>
+            <p>
+                <strong>Key Coursework:</strong> AI & Machine Learning, Cyber Systems Thinking, Zero Trust Architecture,
+                Red & Blue Teams, Digital Forensics, IoT Architecture, Cyber Risk Assessment
+            </p>
+            <hr />
+            <h3>B.S., Games, Interactive Media &amp; Mobile</h3>
             <p><em>Boise State University | Aug 2023 – May 2026</em></p>
             <p>
                 <strong>Focus:</strong> Game Development, Software Engineering, XR, and Embedded Systems
             </p>
             <p>
-                <strong>Technical Coursework:</strong> Advanced Object-Oriented Programming (C# & Python),
+                <strong>Technical Coursework:</strong> Advanced Object-Oriented Programming (C# &amp; Python),
                 Mobile Development (Swift), and Linear Algebra for 3D Rendering.
             </p>
             <p>
@@ -2206,7 +940,6 @@
         </div>
     </section>
 
-
     <!-- ABOUT ME -->
     <section id="about-me">
         <div class="overlay container">
@@ -2215,17 +948,16 @@
                 <div class="col-12">
                     <p>
                         I am a developer who sits at the intersection of <strong>creativity and engineering</strong>.
-                        Currently finishing my B.S. in Games, Interactive Media, and Mobile Technologies, with plans to start a Master’s in <strong>Cyber
-                        Operations & Resilience</strong>, I am fascinated by how hardware and software interact to create seamless
-                        user experiences.
+                        Finishing dual degrees in Games, Interactive Media &amp; Mobile and Cyber Operations &amp; Resilience,
+                        I am fascinated by how hardware and software interact to create seamless user experiences.
                     </p>
                     <p>
                         My background includes building custom <strong>embedded controllers (ESP32)</strong>,
-                        engineering <strong>AR spatial operating systems</strong>, and developing <strong>automation
-                        tools</strong> for healthcare logistics.
+                        engineering <strong>AR spatial operating systems</strong>, developing <strong>AWS IoT pipelines</strong>,
+                        and creating <strong>automation tools</strong> for healthcare logistics.
                     </p>
                     <p>
-                        When I’m not coding, I still exercise my creative side through sketching and vocal performance,
+                        When I'm not coding, I still exercise my creative side through sketching and vocal performance,
                         which helps me approach technical problems with a fresh, user-centric perspective.
                     </p>
                     <hr />
@@ -2239,7 +971,6 @@
         <div class="overlay">
             <h2>Contact Me</h2>
             <div class="row">
-                <!-- Your contact info -->
                 <div class="col-md-6 contact-info">
                     <p>
                         <i class="fa-solid fa-envelope"></i>
@@ -2258,7 +989,6 @@
                         </a>
                     </p>
                 </div>
-                <!-- Custom resume-request fields -->
                 <div class="col-md-6 contact-form">
                     <h3>Request My Resume</h3>
                     <div class="resume-fields">
@@ -2285,7 +1015,7 @@
         </div>
     </section>
 
-    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <!-- Bootstrap JS Bundle -->
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
@@ -2327,8 +1057,7 @@
 
                 if (res.ok) {
                     status.textContent =
-                        `✅ Thank you, ${email}! Allow 5 to 7 business days for a response. ` +
-                        `We’ll reply to ${email}.`;
+                        `✅ Thank you! Allow 5 to 7 business days for a response. We'll reply to ${email}.`;
                 } else {
                     const { error } = await res.json();
                     status.textContent = `⚠️ ${error || 'Submission failed. Please try again.'}`;
